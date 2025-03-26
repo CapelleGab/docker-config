@@ -1,4 +1,4 @@
-# docker-config
+# Docker-config
 
 ### Mariadb docker
 ```
