@@ -1,0 +1,18 @@
+version: "3"
+services:
+  postgres:
+    container_name: pdo-postgres
+    image: postgres:latest
+    platform: linux/amd64
+    ports:
+      - "5432:5432"
+    restart: always
+    environment:
+      POSTGRES_DB: app_db
+      POSTGRES_USER: yoo
+      POSTGRES_PASSWORD: yoo
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
