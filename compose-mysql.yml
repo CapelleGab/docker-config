@@ -1,0 +1,19 @@
+version: "3"
+services:
+  mysql:
+    container_name: pdo-mysql
+    image: mysql:latest
+    platform: linux/amd64
+    ports:
+      - "8036:3306"
+    restart: always
+    environment:
+      MYSQL_DATABASE: app_db
+      MYSQL_ROOT_PASSWORD: yoo
+      MYSQL_USER: yoo
+      MYSQL_PASSWORD: yoo
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
