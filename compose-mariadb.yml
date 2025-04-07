@@ -1,9 +1,7 @@
 version: "3"
 services:
-  todo:
-    container_name: pdo-mariadb
+  pdo-mariadb:
     image: mariadb:latest
-    platform: linux/amd64
     ports:
       - "8036:3306"
     restart: always
