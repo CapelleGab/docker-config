@@ -1,9 +1,7 @@
 version: "3"
 services:
-  mysql:
-    container_name: pdo-mysql
+  pdo-mysql:
     image: mysql:latest
-    platform: linux/amd64
     ports:
       - "8036:3306"
     restart: always
