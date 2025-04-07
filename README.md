@@ -14,3 +14,8 @@ curl -fsS https://raw.githubusercontent.com/CapelleGab/docker-config/refs/heads/
 ```
 curl -fsS https://raw.githubusercontent.com/CapelleGab/docker-config/refs/heads/main/compose-posgresql.yml > compose.yml
 ```
+
+### Mailpit docker
+```
+curl -fsS https://raw.githubusercontent.com/CapelleGab/docker-config/refs/heads/main/compose-mailpit.yml > compose.yml
+```
