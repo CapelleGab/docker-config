@@ -19,3 +19,9 @@ curl -fsS https://raw.githubusercontent.com/CapelleGab/docker-config/refs/heads/
 ```
 curl -fsS https://raw.githubusercontent.com/CapelleGab/docker-config/refs/heads/main/compose-mailpit.yml > compose.yml
 ```
+
+### Mysql & PMA
+```
+curl -fsS https://raw.githubusercontent.com/CapelleGab/docker-config/refs/heads/main/compose-MysqlPMA.yml > compose.yml
+```
+
